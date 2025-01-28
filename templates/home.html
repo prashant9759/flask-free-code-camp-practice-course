@@ -2,11 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Welcome to Your Job Career Portal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #3b82f6, #4f46e5);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+    .button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button-primary {
+      background-color: #22c55e;
+      color: white;
+    }
+    .button-primary:hover {
+      background-color: #16a34a;
+    }
+    .button-secondary {
+      background-color: white;
+      color: #1d4ed8;
+    }
+    .button-secondary:hover {
+      background-color: #e2e8f0;
+    }
+    .image-container {
+      margin-top: 30px;
+    }
+    .image-container img {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
 </head>
 <body>
-  <p>Hi there! Welcome to Prashant's Website!</p>
+  <div class="container">
+    <h1>Welcome to Your Job Career Portal</h1>
+    <p>Explore new opportunities, build your career, and achieve your dreams.</p>
+    <div class="buttons">
+      <button class="button button-primary">Get Started</button>
+      <button class="button button-secondary">Learn More</button>
+    </div>
+    <div class="image-container">
+      <img src="https://via.placeholder.com/600x400" alt="Career Opportunities">
+    </div>
+  </div>
 </body>
 </html>
